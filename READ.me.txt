@@ -1,0 +1,44 @@
+# Simple 2-Digit Calculator in C
+
+Welcome to my repository! This is my very first programming project built using the C language. It is a lightweight, console-based application designed to handle fundamental arithmetic operations between two numbers.
+
+Building this project helped me transition from learning programming theory to writing functional, real-world code.
+
+---
+
+## 🚀 Features & Operations
+
+The calculator takes two numbers as input from the user, prompts for an operator, and accurately computes the result. It fully supports:
+
+*   **Addition (`+`)** - Sums two values.
+*   **Subtraction (`-`)** - Calculates the difference between the first and second value.
+*   **Multiplication (`*`)** - Computes the product of two values.
+*   **Division (`/`)** - Divides the first value by the second value.
+
+---
+
+## 🛠️ Concepts Learned
+
+Through writing this code, I successfully mastered several core computer science and C programming concepts:
+*   **Standard Input/Output:** Managing user interactions using `printf()` and `scanf()`.
+*   **Data Types:** Handling numbers and characters appropriately.
+*   **Control Flow & Logic:** Implementing decision-making structures (like `switch` blocks or `if-else` chains) to evaluate the chosen math operator.
+*   **Basic Arithmetic Operators:** Utilizing C's built-in mathematical processing.
+
+---
+
+## 💻 Code Preview
+
+Here is the structural logic behind how the application processes inputs:
+
+```c
+// Example of the core operation selection logic used in this project
+switch(operator) {
+    case '+':
+        result = num1 + num2;
+        break;
+    case '-':
+        result = num1 - num2;
+        break;
+    // Multiplications, divisions, and error handling follow a similar structure
+}
